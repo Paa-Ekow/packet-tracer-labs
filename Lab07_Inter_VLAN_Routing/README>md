@@ -1,0 +1,37 @@
+# Lab 07: Inter-VLAN Routing (Router-on-a-Stick)
+
+## Objective
+Enable communication between VLANs using a router with subinterfaces.
+
+## Topology
+![Topology](topology.png)
+
+## VLAN Design
+- VLAN 10 (SALES)
+- VLAN 20 (IT)
+
+## IP Addressing
+- VLAN 10 Gateway: 192.168.10.1
+- VLAN 20 Gateway: 192.168.20.1
+
+## Configuration Summary
+
+### Switch
+- VLANs created
+- Access ports assigned
+- Trunk port configured to router
+
+### Router
+- Subinterfaces created for each VLAN
+- 802.1Q encapsulation configured
+- IP addresses assigned
+
+## Verification
+- Inter-VLAN ping successful
+
+## Lessons Learned
+- Router-on-a-stick enables inter-VLAN routing
+- Trunking allows multiple VLANs on one link
+
+## Full Documentation
+👉 [Google Drive – Lab 07 Documentation](https://drive.google.com/file/d/1lGF1C3MZ4vZngfxSvjy1QXVPKDDzpYC1/view?usp=sharing)
